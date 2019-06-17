@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "events",
+      "direction": "in",
+      "eventHubName": "samples-workitems",
+      "cardinality": "many",
+      "connection": "hubTest_RootManageSharedAccessKey_EVENTHUB",
+      "consumerGroup": "$Default"
+    }
+  ],
+  "disabled": false
+}

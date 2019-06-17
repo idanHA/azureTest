@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "Messages",
+      "connection": "idantestb1a3_STORAGE",
+      "direction": "out"
+    }
+  ]
+}
